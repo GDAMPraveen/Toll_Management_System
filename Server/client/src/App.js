@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 // 1. CHANGE THIS LINK when you get your public URL from Render
-const BASE_URL = "http://localhost:3000"; 
+const BASE_URL = "https://toll-management-system-yr0y.onrender.com"; 
 
 function App() {
   const [view, setView] = useState('landing');
